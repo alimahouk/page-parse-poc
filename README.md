@@ -1,6 +1,8 @@
-# Page Parse POC
+# Page Parsing Proof-of-Concept
 
-A proof-of-concept project for advanced web page parsing and analysis using AI and computer vision techniques. This project combines web scraping, document intelligence, and image analysis to extract and process information from web pages.
+A PoC project for advanced web page parsing and analysis using AI and computer vision techniques. This project combines web scraping, document intelligence, and image analysis to extract and process information from web pages.
+
+This parser only parses the currently visible part of the page in the viewport rather than the entire page and constructs a DOM-like JSON structure out of it for passing to an LLM without taking up the entire context window.
 
 ## Features
 
@@ -9,6 +11,7 @@ A proof-of-concept project for advanced web page parsing and analysis using AI a
 - Image analysis with Azure Computer Vision
 - Text processing with OpenAI and sentence transformers
 - Computer vision operations with OpenCV
+- Hovering over visible elements to detect hidden elements that may appear as a result
 
 ## Prerequisites
 
