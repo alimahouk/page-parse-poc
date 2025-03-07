@@ -70,3 +70,7 @@ poetry shell
 ## License
 
 This project is licensed under the terms included in the LICENSE file.
+
+## Author
+
+Created by Ali Mahouk.
